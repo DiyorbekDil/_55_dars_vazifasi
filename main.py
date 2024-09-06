@@ -13,31 +13,23 @@ from statistical_functions import avg_est_year, num_of_comp_est_after_2000
 def menu():
     text = """
     1. Number of companies
-
     2. Number of departments of each company
-    
     3. Number of employees of each company
     4. Number of male workers of each company
     5. Number of female workers of each company
-    6. Number of all workers
-    
+    6. Number of all workers   
     7. Number of workers with more than 2 years of experience
     8. Number of male workers with more than 2 years of experience
-    9. Number of female workers with more than 2 years of experience
-    
+    9. Number of female workers with more than 2 years of experience  
     10. Number of workers with more than 2 years of experience of each company
     11. Number of male workers with more than 2 years of experience of each company
-    12. Number of female workers with more than 2 years of experience of each company
-    
+    12. Number of female workers with more than 2 years of experience of each company 
     13. Average age of all workers
-    14. Average age of workers of each company
-    
+    14. Average age of workers of each company  
     15. Average experience of all workers
-    16. Average experience of workers of each company
-    
+    16. Average experience of workers of each company  
     17. Number of companies established after 2000
-    18. Average established year of all companies
-    
+    18. Average established year of all companies  
     19. Exit
     """
     print(text)
